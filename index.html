@@ -13,13 +13,13 @@
 
 <body>
 
-    <nav>
+    <nav class="navegacion">
         <marquee behavior="" direction="rigth"> &#128585; te quiero mushhio YLCM &#128571;</marquee>
 
         <ul>
-            <li><a href="contacto.html">Inicio</a></li>
-            <li><a href="#sobre-mi">Acerca de</a></li>
-            <li><a href="contact.html">Contacto</a></li>
+            <li><button href="contacto.html" class="btn">Inicio</button></li>
+            <li><button href="#sobre-mi" class="btn">Acerca de</></li>
+            <li><button class="btn">aa</button></li>
         </ul>
     </nav>
 
@@ -32,11 +32,30 @@
 
 
 
-        <h1 class="estilo-letra">Hola soy David Ponce R.</h1>
+        <div class="row">
 
-        <img src="images/david.avif" alt="Es un retrato de David Ponce Rivera.">
+            <div class="col-2">
+                <h1 class="estilo-letra">Hola soy David Ponce R.</h1>
 
-        <video controls width="800px" height="200px" src="video/toti.mp4"></video>
+            </div>
+
+            <div class="col-1">
+                 <img class="icon" src="images/david.avif" alt="Es un retrato de David Ponce Rivera.">
+            </div>
+
+        </div>
+
+
+       
+        <div class="row">
+
+            <div class="col-1">
+                <video width="900px" controls src="video/toti.mp4"></video>
+            </div>
+
+        </div>
+
+      
 
 
         <marquee direction="down" behavior="alternate" style="border:dotted">
@@ -102,7 +121,16 @@
         </form>
 
 
+        <div class="row">
+
+            <div class="col-1">col-1</div>
+            <div class="col-2">col-2</div>
+            <div class="col-2">col-2</div>
+            <div class="col-3">col-3</div>
+        </div>
     </main>
+
+
 
 
 
