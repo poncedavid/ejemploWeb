@@ -4,86 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+    <title>MonoHandsome</title>
 </head>
 
 <body>
 
-    <!--TODO: CTRL + K "ill" + C "ode" -->
-    <!-- el comentario de una linela-->
+    <nav>
+        <marquee behavior="" direction="rigth"> &#128585; te quiero mushhio YLCM &#128571;</marquee>
+
+        <ul>
+            <li><a href="contacto.html">Inicio</a></li>
+            <li><a href="#sobre-mi">Acerca de</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
 
 
 
-    <marquee behavior="" direction="rigth"> &#128585; te quiero mushhio YLCM &#128571;</marquee>
-
-    <h1>Hola soy David Ponce R.</h1>
-
-    <img src="images/david.avif" alt="Es un retrato de David Ponce Rivera.">
-
-    <video autoplay loop muted width="800px" height="200px" src="video/toti.mp4"></video>
+    <main>
 
 
-    <marquee direction="down" behavior="alternate" style="border:dotted">
-        <marquee behavior="alternate">
-            <span style='font-size:100px;'>&#128511;</span>
-            Devuelvan el MOAI
-            <span style='font-size:100px;'>&#128511;</span>
+
+
+
+
+        <h1 class="estilo-letra">Hola soy David Ponce R.</h1>
+
+        <img src="images/david.avif" alt="Es un retrato de David Ponce Rivera.">
+
+        <video controls width="800px" height="200px" src="video/toti.mp4"></video>
+
+
+        <marquee direction="down" behavior="alternate" style="border:dotted">
+            <marquee behavior="alternate">
+                <span style='font-size:100px;'>&#128511;</span>
+                Devuelvan el MOAI
+                <span style='font-size:100px;'>&#128511;</span>
+            </marquee>
         </marquee>
-    </marquee>
-    <button onclick="saludame()">¡Clickeame!</button>
+        <button onclick="saludame()">¡Clickeame!</button>
 
-    <h3>Sobre mi</h3>
-    <h4>Me encantan los moais</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et enim fugit officiis deserunt earum optio
-        incidunt sapiente ullam facere?
-    </p>
+        <h3 id="sobre-mi">Sobre mi</h3>
+        <h4>Me encantan los moais</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et enim fugit officiis deserunt earum optio
+            incidunt sapiente ullam facere?
+        </p>
 
-    <h3>Lenguajes de programación</h3>
+        <h3>Lenguajes de programación</h3>
 
-    <ul>
-        <li>JAVA</li>
-        <li>JAVASCRIPT</li>
-        <li>PYTHON</li>
-        <li>SQL</li>
-    </ul>
+        <ul>
+            <li>JAVA</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+            <li>SQL</li>
+        </ul>
 
-    <h3>Apodos</h3>
-    <table>
-        <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-        </tr>
-        <tr>
-            <td>Aquiles</td>
-            <td>Brinco</td>
-        </tr>
-        <tr>
-            <td>Lola</td>
-            <td>Mento</td>
-        </tr>
-        <tr>
-            <td>Chan</td>
-            <td>Tao</td>
-    </table>
+        <h3>Apodos</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+            <tr>
+                <td>Aquiles</td>
+                <td>Brinco</td>
+            </tr>
+            <tr>
+                <td>Lola</td>
+                <td>Mento</td>
+            </tr>
+            <tr>
+                <td>Chan</td>
+                <td>Tao</td>
+        </table>
 
-    <h3>Contactame</h3>
+        <h3>Contactame</h3>
 
-    <form action="/process" method="post">
-        <div>
-            <label>Nombre: </label>
-            <input type="text" name="name" placeholder="Your name...">
-        </div>
-        <div>
-            <label>Email: </label>
-            <input type="text" name="email" placeholder="Your email...">
-        </div>
-        <div>
-            <input type="checkbox" name="offers" id="offers" checked>
-            <label for="offers">Me gustaría
-                recibir correos con ofertas.</label>
-        </div>
-        <input type="submit" value="Enviar">
-    </form>
+        <form action="/process" method="post">
+            <div>
+                <label>Nombre: </label>
+                <input type="text" name="name" placeholder="Your name...">
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="text" name="email" placeholder="Your email...">
+            </div>
+            <div>
+                <input type="checkbox" name="offers" id="offers" checked>
+                <label for="offers">Me gustaría
+                    recibir correos con ofertas.</label>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+
+
+    </main>
+
 
 
     <script src="script.js"></script>

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(198, 119, 63);   
+}
+
+.estilo-letra{
+    font-family: 'Rubik Glitch Pop', system-ui;
+}
+
+nav{
+    background-color: sandybrown;
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+nav ul li{
+
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
