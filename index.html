@@ -1,142 +1,158 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Enlaces CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/barra.css" />
+    <link rel="stylesheet" href="/assets/css/img.css" />
+    <link rel="stylesheet" href="assets/css/botones.css">
+    <!-- Fin CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap"
+      rel="stylesheet"
+    />
     <title>MonoHandsome</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navegacion">
-        <marquee behavior="" direction="rigth"> &#128585; te quiero mushhio YLCM &#128571;</marquee>
-        <ul>
-            <li><button href="contacto.html" class="btn">Inicio</button></li>
-            <li><button href="#sobre-mi" class="btn">Acerca de</>
-            </li>
-            <li><button class="btn">aa</button></li>
-        </ul>
+      <marquee behavior="" direction="rigth">
+        &#128585; te quiero mushhio YLCM &#128571;</marquee
+      >
+      <ul>
+        <li><button href="contacto.html" class="btn">Inicio</button></li>
+        <li><button href="#sobre-mi" class="btn">Acerca de</button></li>
+        <li><button class="btn">aa</button></li>
+      </ul>
     </nav>
 
-
-
-
     <main>
-        <audio src="sound.mp3" autoplay loop></audio>
+      <audio src="sound.mp3" autoplay loop></audio>
 
+      <div class="row">
+        <div class="col-1">
+          <h1 class="title-up margin">My <span>Cloud</span></h1>
+        </div>
+      </div>
 
-
-
-
-
-        <div class="row">
-
-            <div class="col-2">
-                <h1 class="estilo-letra">Hola soy David Ponce R.</h1>
-
-            </div>
-
-            <div class="col-1">
-                <img class="icon" src="images/david.avif" alt="Es un retrato de David Ponce Rivera.">
-            </div>
-
+      <div class="row">
+        <div class="col-2 scroll box">
+          <h1 class="estilo-letra">
+            Hola soy David Ponce R. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quia consequuntur sapiente, dignissimos velit quas
+            id accusamus odit dolor eveniet, voluptatum iste voluptates
+            suscipit, illo nisi. lorem300 Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Nostrum, earum.
+          </h1>
         </div>
 
+        <div class="col-1">
+          <img
+            class="icon"
+            src="images/david.avif"
+            alt="Es un retrato de David Ponce Rivera."
+          />
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-1">
+          <video width="900px" controls src="video/toti.mp4"></video>
+        </div>
+      </div>
 
-        <div class="row">
+      <h3 id="sobre-mi">Sobre mi</h3>
+      <h4>Me encantan los moais</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et enim
+        fugit officiis deserunt earum optio incidunt sapiente ullam facere?
+      </p>
 
-            <div class="col-1">
-                <video width="900px" controls src="video/toti.mp4"></video>
-            </div>
+      <h3>Lenguajes de programación</h3>
+
+      <ul>
+        <li>JAVA</li>
+        <li>JAVASCRIPT</li>
+        <li>PYTHON</li>
+        <li>SQL</li>
+      </ul>
+
+      <h3>Apodos</h3>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+        </tr>
+        <tr>
+          <td>Aquiles</td>
+          <td>Brinco</td>
+        </tr>
+        <tr>
+          <td>Lola</td>
+          <td>Mento</td>
+        </tr>
+        <tr>
+          <td>Chan</td>
+          <td>Tao</td>
+        </tr>
+      </table>
+
+      <h3>Contactame</h3>
+
+      <form action="/process" method="post">
+        <div>
+          <label>Nombre: </label>
+          <input type="text" name="name" placeholder="Your name..." />
+        </div>
+        <div>
+          <label>Email: </label>
+          <input type="text" name="email" placeholder="Your email..." />
+        </div>
+        <div>
+          <input type="checkbox" name="offers" id="offers" checked />
+          <label for="offers">Me gustaría recibir correos con ofertas.</label>
+        </div>
+        <input type="submit" value="Enviar" />
+      </form>
+
+      <div class="row">
+        <div class="col-1">
+            <button class="buscar">search</button>
 
         </div>
+        <div class="col-1">
+            <button class="plus">+</button>
 
+        </div>
+        <div class="col-1">
+            <button class="create">create account</button>
 
+        </div>
+      </div>
 
-
-        <marquee direction="down" behavior="alternate" style="border:dotted">
-            <marquee behavior="alternate">
-                <span style='font-size:100px;'>&#128511;</span>
-                Devuelvan el MOAI
-                <span style='font-size:100px;'>&#128511;</span>
-            </marquee>
+      <marquee direction="down" behavior="alternate" style="border: dotted">
+        <marquee behavior="alternate">
+          <span style="font-size: 100px">&#128511;</span>
+          Devuelvan el MOAI
+          <span style="font-size: 100px">&#128511;</span>
         </marquee>
-
-
-        <h3 id="sobre-mi">Sobre mi</h3>
-        <h4>Me encantan los moais</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et enim fugit officiis deserunt earum optio
-            incidunt sapiente ullam facere?
-        </p>
-
-        <h3>Lenguajes de programación</h3>
-
-        <ul>
-            <li>JAVA</li>
-            <li>JAVASCRIPT</li>
-            <li>PYTHON</li>
-            <li>SQL</li>
-        </ul>
-
-        <h3>Apodos</h3>
-        <table>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-            </tr>
-            <tr>
-                <td>Aquiles</td>
-                <td>Brinco</td>
-            </tr>
-            <tr>
-                <td>Lola</td>
-                <td>Mento</td>
-            </tr>
-            <tr>
-                <td>Chan</td>
-                <td>Tao</td>
-        </table>
-
-        <h3>Contactame</h3>
-
-        <form action="/process" method="post">
-            <div>
-                <label>Nombre: </label>
-                <input type="text" name="name" placeholder="Your name...">
-            </div>
-            <div>
-                <label>Email: </label>
-                <input type="text" name="email" placeholder="Your email...">
-            </div>
-            <div>
-                <input type="checkbox" name="offers" id="offers" checked>
-                <label for="offers">Me gustaría
-                    recibir correos con ofertas.</label>
-            </div>
-            <input type="submit" value="Enviar">
-        </form>
-
-
-        <div class="row">
-
-            <div class="col-1">col-1</div>
-            <div class="col-2">col-2</div>
-            <div class="col-2">col-2</div>
-            <div class="col-3">col-3</div>
+      </marquee>
+      <footer>
+        <div id="example1">
+          <h2>Hello World</h2>
+          <p>
+            Here we have two background images. We specify the size of the first
+            background image with "contain", and the second background-image
+            with "cover".
+          </p>
         </div>
+      </footer>
     </main>
 
-
-
-
-
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

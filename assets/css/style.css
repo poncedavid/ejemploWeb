@@ -1,6 +1,7 @@
+
 *{
+    padding: 0;
     margin: 0;
-    border: 0;
 }
 
 body{
@@ -63,7 +64,8 @@ main{
     flex: 1;
     padding: 10px;
     margin: 10px;
-    background-color: sandybrown;
+    background-color: silver;
+
 
 }
 
@@ -79,6 +81,7 @@ main{
 .icon{
 
     border-radius: 25%;
+
 }
 
 video{
@@ -86,3 +89,21 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+
+
+
+.box{
+    width:100%;
+    height: 100%;
+    height:250px;
+    border:1px solid red;
+    padding:1%;
+    overflow: auto;
+
+}
+
+p {
+    border: 5px groove rgb(100,100,100);
+
+  }

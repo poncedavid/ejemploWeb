@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 10%;
+}
+
+button{
+  display: block;
+  margin: 10px;
+}
+
+.buscar{
+  width: 120px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid #57b8ba;
+  color: #159c9f;
+  background-color: #f5f5f5;
+}
+
+.buscar:hover{
+  background-color: #57b8ba;
+  color: white;
+}
+
+.plus{
+
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background-color:#33d2b3;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: progress;
+
+}
+.plus:hover{
+  background-color: #2b78e5;
+  color: white;
+}
+
+.create{
+  width: 170px;
+  height: 30px;
+  background-color: #2b78e5;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px 8px black;
+  cursor: pointer;
+}
+.create:hover{
+  background-color: #33d2b3;
+  border: none;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 8px white;
+
+}
+
+
+
